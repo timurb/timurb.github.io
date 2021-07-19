@@ -1,0 +1,34 @@
+<!-- 
+	
+	=======
+	Wiklinks
+	=======
+
+ Based on https://github.com/crisrojas/zettels.git
+ -->
+ 
+{{ $firstBracket := "\\[\\[" }}
+{{ $lastBracket := "\\]\\]" }}
+
+{{ $wikiregex := "\\[\\[([^/]+?)\\]\\]" }}
+
+{{ $wikilinks := .Summary | findRE $wikiregex }}
+
+{{ $.Scratch.Add "content" .Summary }}
+
+{{ range $wikilinks }}
+
+	{{ $linkTitle := . | replaceRE $wikiregex "$1" }}
+	{{ $linkTitle := $linkTitle | replaceRE "\\?" "\\?" }}
+	{{ $wikilink :=  printf "%s%s%s" $firstBracket $linkTitle $lastBracket }}
+
+	{{ $anchorized := $linkTitle | anchorize }}
+
+	{{ $link := printf "[%s](posts/%s.html)" $linkTitle $anchorized }}
+	
+	{{ $noteContent := $.Scratch.Get "content" | replaceRE $wikilink $link }}
+	{{ $.Scratch.Set "content" $noteContent }}
+{{ end }}
+
+{{ $content := .Scratch.Get "content" }}
+{{ $content | markdownify }}
