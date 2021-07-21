@@ -14,7 +14,8 @@
 
 {{ $wikilinks := .Content | findRE $wikiregex }}
 
-{{ $.Scratch.Set "content" .RawContent }}
+{{ $content := newScratch }}
+{{ $content.Set "content" .RawContent }}
 
 {{ range $wikilinks }}
 
@@ -23,12 +24,9 @@
 	{{ $wikilink :=  printf "%s%s%s" $firstBracket $linkTitle $lastBracket }}
 
 	{{ $anchorized := $linkTitle | anchorize }}
-
 	{{ $link := printf "[%s](%s)" $linkTitle (relref $ $anchorized )}}
 	
-	{{ $noteContent := $.Scratch.Get "content" | replaceRE $wikilink $link }}
-	{{ $.Scratch.Set "content" $noteContent }}
+	{{ $content.Set "content" ($content.Get "content" | replaceRE $wikilink $link) }}
 {{ end }}
 
-{{ $content := .Scratch.Get "content" }}
-{{ $content | markdownify }}
+{{ $content.Get "content" | markdownify }}
