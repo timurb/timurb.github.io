@@ -1,4 +1,4 @@
-baseURL = "http://timurb.ru"
+baseURL = "http://timurb.ru/"
 languageCode = "ru-ru"
 title = "Об DevOps и архитектуру"
 theme = "ink"
