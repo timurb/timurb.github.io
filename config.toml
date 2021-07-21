@@ -1,25 +1,24 @@
 baseURL = "http://timurb.ru/"
-languageCode = "ru-ru"
-title = "Об DevOps и архитектуру"
 theme = "ink"
 
-uglyurls = true
 relativeURLs = true
 
 googleAnalytics = "G-XHRMHV11BE"
 sectionPagesMenu = "main"
 
+languageCode = "ru-ru"
+title = "Об DevOps и архитектуру"
+
 [markup]
   defaultMarkdownHandler = "goldmark"
-
 
 [permalinks]
   post = ":filename"
 
-[menu]
 
+[menu]   
   [[menu.main]]
-  identifier = "about"
-  name = "Об авторе"
-  url = "/about.html"
-  weight = -110
+    identifier = "about"
+    name = "Об авторе"
+    url = "/about"
+    weight = -110
