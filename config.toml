@@ -22,3 +22,6 @@ title = "Об DevOps и архитектуру"
     name = "Об авторе"
     url = "/about"
     weight = -110
+
+[params]
+customCSS = "css/image-float.css"
