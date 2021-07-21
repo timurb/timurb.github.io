@@ -7,6 +7,7 @@ uglyurls = true
 relativeURLs = true
 
 googleAnalytics = "G-XHRMHV11BE"
+sectionPagesMenu = "main"
 
 [markup]
   defaultMarkdownHandler = "goldmark"
@@ -14,3 +15,11 @@ googleAnalytics = "G-XHRMHV11BE"
 
 [permalinks]
   post = ":filename"
+
+[menu]
+
+  [[menu.main]]
+  identifier = "about"
+  name = "Об авторе"
+  url = "/about.html"
+  weight = -110

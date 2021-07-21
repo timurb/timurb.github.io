@@ -36,6 +36,7 @@
 				{{ end }}
 			</div>
 
+{{ if ne .Type "page" }}
 <script src="https://utteranc.es/client.js"
         repo="timurb/timurb.github.io"
         issue-term="pathname"
@@ -44,6 +45,7 @@
         crossorigin="anonymous"
         async>
 </script>
+{{end}}
 			{{- if .Site.DisqusShortname -}}
 			{{- $.Scratch.Set "isDisqus" true -}}
 
