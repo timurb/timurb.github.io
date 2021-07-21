@@ -1,8 +1,15 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "ananke"
+baseURL = "http://timurb.ru"
+languageCode = "ru-ru"
+title = "Об DevOps и архитектуру"
+theme = "ink"
 
 uglyurls = true
+relativeURLs = true
+
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+
+
 [permalinks]
   post = ":filename"
