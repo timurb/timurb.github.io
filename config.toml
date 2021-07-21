@@ -6,7 +6,7 @@ theme = "ink"
 uglyurls = true
 relativeURLs = true
 
-# googleAnalytics = ""
+googleAnalytics = "UA-43321747-4"
 
 [markup]
   defaultMarkdownHandler = "goldmark"
