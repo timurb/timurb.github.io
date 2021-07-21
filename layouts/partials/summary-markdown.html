@@ -14,7 +14,7 @@
 
 {{ $wikilinks := .Summary | findRE $wikiregex }}
 
-{{ $.Scratch.Add "content" .Summary }}
+{{ $.Scratch.Set "content" .Summary }}
 
 {{ range $wikilinks }}
 
@@ -23,12 +23,14 @@
 	{{ $wikilink :=  printf "%s%s%s" $firstBracket $linkTitle $lastBracket }}
 
 	{{ $anchorized := $linkTitle | anchorize }}
-
-	{{ $link := printf "[%s](posts/%s.html)" $linkTitle $anchorized }}
+	{{ $link := printf "[%s](%s)" $linkTitle (relref $ $anchorized )}}
 	
 	{{ $noteContent := $.Scratch.Get "content" | replaceRE $wikilink $link }}
 	{{ $.Scratch.Set "content" $noteContent }}
 {{ end }}
-
+<p><small>Reading time: {{.ReadingTime}} minutes</small></p>
 {{ $content := .Scratch.Get "content" }}
 {{ $content | markdownify }}
+{{if .Truncated}}
+<p><a href="{{.RelPermalink}}">Read more...</a></p>
+{{end}}
