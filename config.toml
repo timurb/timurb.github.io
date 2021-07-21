@@ -24,4 +24,4 @@ title = "Об DevOps и архитектуру"
     weight = -110
 
 [params]
-customCSS = "css/image-float.css"
+customCSS = "css/custom.css"
