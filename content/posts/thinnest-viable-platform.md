@@ -1,7 +1,7 @@
 ---
 title: "Thinnest Viable Platform"
 date: 2021-07-19T21:10:04+03:00
-draft: true
+draft: false
 ---
 
 С появлением концепции [[Thinnest Viable Platform]] взгляд на платформы начал меняться.
