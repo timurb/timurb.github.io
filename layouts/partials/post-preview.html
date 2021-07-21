@@ -13,7 +13,8 @@
 			{{ if isset .Params "description" }}
 				{{ .Description }}
 			{{ else }}
-                                {{- partial "summary-markdown.html" . -}}
+                                {{ $wikiregex := "\\[\\[([^/]+?)\\]\\]" }}
+                                {{- .Summary | replaceRE $wikiregex "$1" | markdownify -}}
 			{{ end }}
 		</span>
 	</div>
