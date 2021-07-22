@@ -1,6 +1,6 @@
 ---
 title: ""
-date: 1-07-21T19:12:34+03:00
+date: 2021-07-21T19:12:34+03:00
 type: page
 draft: false
 ---
