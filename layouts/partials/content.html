@@ -15,7 +15,7 @@
 {{ $wikilinks := .Content | findRE $wikiregex }}
 
 {{ $content := newScratch }}
-{{ $content.Set "content" .RawContent }}
+{{ $content.Set "content" .Content }}
 
 {{ range $wikilinks }}
 

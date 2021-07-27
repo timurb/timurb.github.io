@@ -11,6 +11,9 @@ title = "Об DevOps и архитектуру"
 
 [markup]
   defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [permalinks]
   post = ":filename"
