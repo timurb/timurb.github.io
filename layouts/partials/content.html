@@ -15,7 +15,7 @@
 {{ $wikilinks := .Content | findRE $wikiregex }}
 
 {{ $content := newScratch }}
-{{ $content.Set "content" .RawContent }}
+{{ $content.Set "content" .Content }}
 
 {{ range $wikilinks }}
 	{{ $linkTitle := . | replaceRE $wikiregex "$1" }}
@@ -23,7 +23,7 @@
 	{{ $wikilink :=  printf "%s%s%s" $firstBracket $linkTitle $lastBracket }}
 
 	{{ $anchorized := $linkTitle | anchorize }}
-	{{ $link := printf "[%s](%s)" $linkTitle (relref $ $anchorized )}}
+	{{ $link := printf "[%s](%s)" $linkTitle (relref $ $anchorized )| markdownify}}
 	
 	{{ $content.Set "content" ($content.Get "content" | replaceRE $wikilink $link) }}
 {{ end }}
