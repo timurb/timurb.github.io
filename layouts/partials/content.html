@@ -6,7 +6,7 @@
 
  Based on https://github.com/crisrojas/zettels.git
  -->
- 
+
 {{ $firstBracket := "\\[\\[" }}
 {{ $lastBracket := "\\]\\]" }}
 
@@ -15,10 +15,9 @@
 {{ $wikilinks := .Content | findRE $wikiregex }}
 
 {{ $content := newScratch }}
-{{ $content.Set "content" .Content }}
+{{ $content.Set "content" .RawContent }}
 
 {{ range $wikilinks }}
-
 	{{ $linkTitle := . | replaceRE $wikiregex "$1" }}
 	{{ $linkTitle := $linkTitle | replaceRE "\\?" "\\?" }}
 	{{ $wikilink :=  printf "%s%s%s" $firstBracket $linkTitle $lastBracket }}
