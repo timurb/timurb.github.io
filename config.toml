@@ -4,10 +4,11 @@ theme = "ink"
 relativeURLs = true
 
 googleAnalytics = "G-XHRMHV11BE"
-sectionPagesMenu = "main"
 
 languageCode = "ru-ru"
 title = "Об DevOps и архитектуру"
+
+pluralizelisttitles = "false"
 
 [markup]
   defaultMarkdownHandler = "goldmark"
@@ -20,11 +21,23 @@ title = "Об DevOps и архитектуру"
 
 
 [menu]   
-  [[menu.main]]
+  [[menu.about]]
     identifier = "about"
     name = "Об авторе"
     url = "/about"
     weight = -110
 
+  [[menu.blog]]
+    identifier = "blog"
+    name = "Блог"
+    url = "/blog"
+
+  [[menu.kb]]
+    identifier = "kb"
+    name = "Определения"
+    url = "/kb"
+
+
 [params]
 customCSS = "css/custom.css"
+mainSections = ["blog", "kb"]
