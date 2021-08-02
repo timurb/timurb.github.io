@@ -43,152 +43,71 @@
 <h2 class=page-title>Определения</h2>
 <ul class="posts flat"><li class=post>
 <div class=post-header>
-<div class=meta>
-<div class=date>
-<span class=day>02</span>
-<span class=rest>Aug 2021</span>
-</div>
-</div>
 <div class=matter>
 <h4 class="title small">
 <a href=../kb/citadel/>Цитадель</a>
 </h4>
 <span class=description>
-<p><small>Reading time: 1 minutes</small></p>
-Citadel — архитектурный паттерн проектирования наряду с паттернами “Монолит” и “Микросервисы”.
-Состоит в выделении некоторой функциональности из монолита в виде “Outpost” и сохранении основного условно монолитного ядра.
-Для того, чтобы принять решение оставлять ли некоторую функциональность в монолите, или же вынести ее в микросервис кажется можно применить <a href=../kb/6-reasons-for-microservices/>6 причин делать микросервис</a>.
-Хороший пример для выделения в Outpost — сервис аутентификации, на который обычно бывает высокая нагрузка, или сервис-представление для какого-нибудь счетчика, который выдает пользователю количество непрочитанных сообщений.
-<p><a href=../kb/citadel/>Read more...</a></p>
 </span>
 </div>
 </div>
 </li><li class=post>
 <div class=post-header>
-<div class=meta>
-<div class=date>
-<span class=day>02</span>
-<span class=rest>Aug 2021</span>
-</div>
-</div>
 <div class=matter>
 <h4 class="title small">
 <a href=../kb/6-reasons-for-microservices/>6 Причин Делать Микросервис</a>
 </h4>
 <span class=description>
-<p><small>Reading time: 1 minutes</small></p>
-Микросервисы имеют и плюсы и минусы, на которых мы сейчас останавливаться не будем.
-Существует 6 причин разделять компоненты на микросервисы, вместо разработки монолита:
-Разная частота изменений (сервисы, которые меняются часто имеет смысл выделить в отдельный микросервис) Разный жизненный цикл (например, какой-то компонент требует особого вида тестирования или к нему особые требования у регуляторов) Разные требования к масштабированию (например, сильно нагружены чаще всего только 1-2 сервиса из десятков) Изоляция сбоев (если взорвется один сервис остальные продолжат работать, но при этом критичных компонентов не так много) Фасад к внешним зависимостям (устойчивость к смене их API, всякие AAA, и т.
-<p><a href=../kb/6-reasons-for-microservices/>Read more...</a></p>
 </span>
 </div>
 </div>
 </li><li class=post>
 <div class=post-header>
-<div class=meta>
-<div class=date>
-<span class=day>01</span>
-<span class=rest>Aug 2021</span>
-</div>
-</div>
 <div class=matter>
 <h4 class="title small">
 <a href=../kb/api/>API</a>
 </h4>
 <span class=description>
-<p><small>Reading time: 1 minutes</small></p>
-Предоставление API можно рассматривать как способ подключения к деятельности других субъектов, или способ подключения к другому рынку.
-Тот, кто предоставляет API к своему сервису также предоставляет и способ использования своего продукта в деятельности предпринимателей со стороны. По видимому это одна из причин, почему многие вендоров участвуют в создании открытых стандартов.
-В этом смысле конструирование API наиболее удобных для каких-то конкретных пользователей можно рассматривать как упаковку имеющегося продукта под новые рынки. В этом же контексте по видимому можно применять те же способы разработки продуктов, которые применяются и для продуктов физического мира (такие как Lean Startup и т.
-<p><a href=../kb/api/>Read more...</a></p>
 </span>
 </div>
 </div>
 </li><li class=post>
 <div class=post-header>
-<div class=meta>
-<div class=date>
-<span class=day>01</span>
-<span class=rest>Aug 2021</span>
-</div>
-</div>
 <div class=matter>
 <h4 class="title small">
 <a href=../kb/open-standards/>Открытые стандарты</a>
 </h4>
 <span class=description>
-<p><small>Reading time: 1 minutes</small></p>
-<a href=../kb/open-standards/>Открытые стандарты</a> — это способ формирования вендорами рынка, на котором они смогут строить свои решения и играть по понятным правилам.
-Через создание спецификации некоторого API вендоры оформляют и стабилизируют рынок, чтобы появилась возможность выпускать под него свои продукты.
-Примеры (возможно не все из них корректные):
-<a href=../kb/open-container-initiative/>Open Container Initiative</a>: <a href=https://opencontainers.org/>https://opencontainers.org/</a> Open Application Model: <a href=https://oam.dev/>https://oam.dev/</a> Open Service Broker API: <a href=https://www.openservicebrokerapi.org/>https://www.openservicebrokerapi.org/</a> Open SLO: <a href=https://openslo.com/>https://openslo.com/</a> Open Policy Agent: <a href=https://www.openpolicyagent.org/>https://www.openpolicyagent.org/</a> Open API: <a href=https://www.openapis.org/>https://www.openapis.org/</a> Open Service Mesh: https://openservicemesh.
-<p><a href=../kb/open-standards/>Read more...</a></p>
 </span>
 </div>
 </div>
 </li><li class=post>
 <div class=post-header>
-<div class=meta>
-<div class=date>
-<span class=day>01</span>
-<span class=rest>Aug 2021</span>
-</div>
-</div>
 <div class=matter>
 <h4 class="title small">
 <a href=../kb/open-container-initiative/>Open Container Initiative</a>
 </h4>
 <span class=description>
-<p><small>Reading time: 1 minutes</small></p>
-<a href=../kb/open-container-initiative/>Open Container Initiative</a> — это рабочая группа, включающая в себя крупных вендоров, которая разрабатывает <a href=../kb/open-standards/>открытые стандарты</a> для запуска контейнеров.
-В стандарт входят три спецификации:
-Спецификация образов контейнеров (<a href=https://github.com/opencontainers/image-spec>https://github.com/opencontainers/image-spec</a>) Спецификация передачи образов (<a href=https://github.com/opencontainers/distribution-spec>https://github.com/opencontainers/distribution-spec</a>) Спецификация рантайма для контейнеров (<a href=https://github.com/opencontainers/runtime-spec>https://github.com/opencontainers/runtime-spec</a>) Это позволяет разным вендорам делать собственные реализации контейнеризации оставаясь при этом совместимыми с пользовательским тулчейном – инструментами разработки, сборки, оркестраторами и т.д.
-Примеры реализации этих стандартов (список не исчерпывающий):
-<a href=https://github.com/opencontainers/image-spec/blob/main/implementations.md>https://github.com/opencontainers/image-spec/blob/main/implementations.md</a> https://github.
-<p><a href=../kb/open-container-initiative/>Read more...</a></p>
 </span>
 </div>
 </div>
 </li><li class=post>
 <div class=post-header>
-<div class=meta>
-<div class=date>
-<span class=day>29</span>
-<span class=rest>Jul 2021</span>
-</div>
-</div>
 <div class=matter>
 <h4 class="title small">
 <a href=../kb/quality-attributes/>Атрибуты Качества</a>
 </h4>
 <span class=description>
-<p><small>Reading time: 1 minutes</small></p>
-Атрибуты качества уточняют требования к системе —- как функциональные, так и не функциональные. Они не могут обсуждаться отдельно без требований.
-Атрибуты качества должны быть максимально конкретными и точными, с минимумом возможных интерпретаций. В идеале по ним должно быть возможно построить Quality Gate.
-Атрибуты качества часто несут в себе некоторые затраты на их реализацию. Через эти затраты можно обсуждать какие из атрибутов качества важны для стейкхолдеров, а какими можно поступиться.
-Примеры атрибутов качества см.
-<p><a href=../kb/quality-attributes/>Read more...</a></p>
 </span>
 </div>
 </div>
 </li><li class=post>
 <div class=post-header>
-<div class=meta>
-<div class=date>
-<span class=day>27</span>
-<span class=rest>Jul 2021</span>
-</div>
-</div>
 <div class=matter>
 <h4 class="title small">
 <a href=../kb/architect-elevator/>Architect Elevator</a>
 </h4>
 <span class=description>
-<p><small>Reading time: 1 minutes</small></p>
-<p>Architect Elevator &ndash; принцип, который утверждает, что Архитектура — это способ <em>коммуникации</em> между уровнями в организации.</p>
-<p>С учетом того, что современные организации движутся в сторону Software defined processes, коммуникация эта должна затрагивать как организационные, так и технические взаимодействия.</p>
-<p><a href=../kb/architect-elevator/>Read more...</a></p>
 </span>
 </div>
 </div>
