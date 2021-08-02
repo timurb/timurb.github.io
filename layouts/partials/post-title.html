@@ -1,0 +1,12 @@
+<div class="post-header">
+	<div class="matter">
+		<h4 class="title small">
+			<a href="{{ .RelPermalink }}">{{.Title}}{{ if .Draft }}<sup class="draft-label">DRAFT</sup>{{ end }}</a>
+		</h4>
+		<span class="description">
+			{{ if isset .Params "description" }}
+				{{ .Description }}
+			{{ end }}
+		</span>
+	</div>
+</div>
