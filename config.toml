@@ -1,4 +1,4 @@
-baseURL = "http://timurb.ru/"
+baseURL = "https://timurb.ru/"
 theme = "ink"
 
 relativeURLs = true
