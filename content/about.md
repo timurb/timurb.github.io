@@ -5,7 +5,7 @@ type: page
 draft: false
 ---
 
-![](/images/photo.jpg#photofloatright)
+![Timur Batyrshin](/images/photo.jpg#photofloatright)
 
 ## Об авторе
 
