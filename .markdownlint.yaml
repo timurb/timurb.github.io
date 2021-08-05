@@ -1,0 +1,4 @@
+MD007: false  # UL indentation
+MD013: false  # Line length
+MD030: false  # spaces after list markers
+MD032: false  # List surrounded by space
