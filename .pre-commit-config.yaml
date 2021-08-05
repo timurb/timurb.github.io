@@ -16,7 +16,10 @@ repos:
     -   id: detect-private-key
     -   id: mixed-line-ending
 
-#- repo: https://github.com/igorshubovych/markdownlint-cli
-#  rev: v0.28.1
-#  hooks:
-#  - id: markdownlint
+- repo: local
+  hooks:
+  - id: markdownlint
+    name: markdownlint
+    language: docker_image # for some reason docker image doesn't build in this step
+    entry: precommit-markdown markdownlint
+    files: \.md$
