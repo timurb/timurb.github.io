@@ -12,5 +12,5 @@ Architect Elevator -- принцип, который утверждает, чт�
 <!--more-->
 
 См также:
-- Gregor Hohpe "The Architect Elevator": https://martinfowler.com/articles/architect-elevator.html
-- Его же доклад: https://www.youtube.com/watch?v=Zq2VcRZmz78
+- Gregor Hohpe "The Architect Elevator": <https://martinfowler.com/articles/architect-elevator.html>
+- Его же доклад: <https://www.youtube.com/watch?v=Zq2VcRZmz78>
