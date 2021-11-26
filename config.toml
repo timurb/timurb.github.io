@@ -27,14 +27,9 @@ pluralizelisttitles = "false"
     url = "/about"
     weight = -110
 
-  [[menu.blog]]
-    identifier = "blog"
-    name = "Блог"
-    url = "/blog"
-
   [[menu.kb]]
     identifier = "kb"
-    name = "Определения"
+    name = "Оглавление"
     url = "/kb"
 
 
