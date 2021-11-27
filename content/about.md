@@ -23,6 +23,11 @@ draft: false
 
 Тексты могут и будут дорабатываться со временем, это может происходить прямо внутри статей, не отдельными страницами.
 
+Статьи также публикуются:
+- в телеграм-канале [@devops_architecture](https://t.me/devops_architecture)
+- на сайте [timurb.ru](https://timurb.ru/)
+- в [моем Facebook](https://fb.com/tbatyrshin)
+
 ### Мои контакты
 
 * Facebook: [fb.com/tbatyrshin](https://fb.com/tbatyrshin)
