@@ -25,6 +25,7 @@ draft: false
 Статьи также публикуются:
 - в телеграм-канале [@devops_architecture](https://t.me/devops_architecture)
 - на сайте [timurb.ru](https://timurb.ru/)
+- на [Medium](https://timurbatyrshin.medium.com/)
 - в [моем Facebook](https://fb.com/tbatyrshin)
 
 ### Мои контакты
