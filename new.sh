@@ -5,7 +5,7 @@ usage() {
 Usage: $(basename $0) TYPE SLUG
 
 TYPE is content type
-SLUG is page title/slug
+SLUG is page title
 EOF
   exit 1
 }
