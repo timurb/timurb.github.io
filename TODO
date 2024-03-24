@@ -1,0 +1,6 @@
+## TODOs for the blog
+
+[ ] Diagramming integration
+  - Build script to compile diagrams using kroki to public folder
+  - Evaluate / compare to the current online integration to kroki (GitSHA a5bea4062cf009855fb08c22d46d1e1742e21c50)
+  - Create solution for yEd integration
