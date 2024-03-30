@@ -1,3 +1,3 @@
 #!/bin/sh
 
-hugo serve --buildDrafts --renderToDisk
+hugo serve --buildDrafts #--renderToDisk
