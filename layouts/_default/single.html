@@ -45,7 +45,7 @@
         async>
 </script>
 {{end}}
-			{{- if .Site.DisqusShortname -}}
+			{{- if .Site.Config.Services.Disqus.Shortname -}}
 			{{- $.Scratch.Set "isDisqus" true -}}
 
 			{{- if and (isset .Params "type") (in .Site.Params.disableDisqusTypes .Params.type) -}}
