@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Оглавление on Об DevOps и архитектуру</title><link>https://timurb.ru/kb/</link><description>Recent content in Оглавление on Об DevOps и архитектуру</description><generator>Hugo</generator><language>ru-ru</language><lastBuildDate>Mon, 30 Dec 2024 22:06:41 +0300</lastBuildDate><atom:link href="https://timurb.ru/kb/index.xml" rel="self" type="application/rss+xml"/><item><title>Об IT-компетенции</title><link>https://timurb.ru/kb/sfia-vs-icd/</link><pubDate>Mon, 30 Dec 2024 22:06:41 +0300</pubDate><guid>https://timurb.ru/kb/sfia-vs-icd/</guid><description>&lt;p>Последний год или чуть больше достаточно большая часть моих задач на работе &amp;ndash; организация пула devops-инженеров:&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Оглавление on Об DevOps и архитектуру</title><link>https://timurb.ru/kb/</link><description>Recent content in Оглавление on Об DevOps и архитектуру</description><generator>Hugo</generator><language>ru-ru</language><lastBuildDate>Fri, 06 Jun 2025 21:08:44 +0300</lastBuildDate><atom:link href="https://timurb.ru/kb/index.xml" rel="self" type="application/rss+xml"/><item><title>Об ведение базы знаний</title><link>https://timurb.ru/kb/knowledge-base/</link><pubDate>Fri, 06 Jun 2025 21:08:44 +0300</pubDate><guid>https://timurb.ru/kb/knowledge-base/</guid><description>&lt;p>При ведении базы знаний у тебя есть несколько сценариев работы с информацией (по сути, жизненный цикл объекта информации-знания):&lt;/p>
+&lt;ul>
+&lt;li>Поиск внешний&lt;/li>
+&lt;li>Сбор и учет материала, фиксация ссылок, выгрузка контента&lt;/li>
+&lt;li>Осмысление материала, фиксация мыслей&lt;/li>
+&lt;li>Анализ взаимосвязей между темами&lt;/li>
+&lt;li>Корректировка и переработка материала&lt;/li>
+&lt;li>Поиск материала в своей БЗ&lt;/li>
+&lt;li>Обмен материалами с другими людьми / встраивание материалов в повседневную работу&lt;/li>
+&lt;/ul>
+&lt;p>Ключевое в ведении базы знаний — это то, чтобы эти сценарии происходили хоть как-то.&lt;/p></description></item><item><title>Об IT-компетенции</title><link>https://timurb.ru/kb/sfia-vs-icd/</link><pubDate>Mon, 30 Dec 2024 22:06:41 +0300</pubDate><guid>https://timurb.ru/kb/sfia-vs-icd/</guid><description>&lt;p>Последний год или чуть больше достаточно большая часть моих задач на работе &amp;ndash; организация пула devops-инженеров:&lt;/p>
 &lt;ul>
 &lt;li>построение найма (в т.ч. делегирование найма самим ребятам) и работы HR-специалистов&lt;/li>
 &lt;li>уточнение критериев к грейдам&lt;/li>
@@ -29,8 +39,7 @@
 &lt;p>Такое умение можно либо наработать на опыте поучаствовав в десятке-другом разных проектов разного характера, либо на базе некоторой модели, которая должна быть быстрой и простой в применении, и при этом с возможностью масштабироваться до охвата всех аспектов работы команды (содержание работы, процессы, критерии качества и т.д).&lt;/p></description></item><item><title>Об Модифицирующие Команды</title><link>https://timurb.ru/kb/ob-enabling-team/</link><pubDate>Sun, 19 Mar 2023 18:01:34 +0300</pubDate><guid>https://timurb.ru/kb/ob-enabling-team/</guid><description>&lt;p>Из всех тем, рассматриваемых в Team Topologies наиболее непонятная тема — это Enabling team, “модифицирующая” или “преобразующая” команда. Я буду использовать слово Модифицирующая Команда, потому что такой же перевод используется в &lt;a href="https://platen.dev">Platen&lt;/a>.&lt;/p>
 &lt;p>В самой книге про нее говорится многих общих слов типа:&lt;/p>
 &lt;blockquote>
-&lt;p>Enabling teams have a strongly collaborative nature; they thrive to understand the problems and shortcomings of stream-aligned teams in order to provide effective guidance&lt;/p>
-&lt;/blockquote>
+&lt;p>Enabling teams have a strongly collaborative nature; they thrive to understand the problems and shortcomings of stream-aligned teams in order to provide effective guidance&lt;/p>&lt;/blockquote>
 &lt;p>или&lt;/p>
 &lt;blockquote>
 &lt;p>The mission of enabling teams is to help stream-aligned teams acquire missing capabilities, usually around a specific technical or product management area&lt;/p></description></item><item><title>Об формальные и неформальные нотации</title><link>https://timurb.ru/kb/formal-informal-notations/</link><pubDate>Wed, 01 Feb 2023 22:43:40 +0300</pubDate><guid>https://timurb.ru/kb/formal-informal-notations/</guid><description>&lt;p>Если сравнивать &amp;ldquo;просто стикеры&amp;rdquo; в миро и Archimate, то Archimate удобнее тем, что мы в нем получаем &amp;ldquo;встроенную&amp;rdquo; валидацию типов, которую в случае стикеров приходится выполнять более явно.&lt;/p>
